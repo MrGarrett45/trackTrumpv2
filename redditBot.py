@@ -5,11 +5,11 @@ import praw, shelve
 
 def runBot():
 
-	r = praw.Reddit(client_id='Zl05eTS8oFp-FQ',
-			client_secret='-yrg5F859g6V2UzxR0quP2t0zYQ',
+	r = praw.Reddit(client_id='client_id',
+			client_secret='secret',
 			user_agent='trumpPercentBot',
 			username='trumpTrackerBot',
-			password='trackerbot1')
+			password='passwd')
 	subreddit = r.subreddit('trumpPercent')
 	resultFile = open('RESULTS.txt', 'r')
 	resultsTxt = resultFile.readlines()
