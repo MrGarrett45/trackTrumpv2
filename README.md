@@ -10,7 +10,7 @@ tTrumpStats.py is then responsible for collecting this hourly data and analyzing
 
 redditBot.py is responsible for posting this data on r/trumpPercent at the end of every day.
 
-
+These programs are all run via cron jobs on a raspberry pi 3.
 
 
 Check out r/trumpPercent or RESULTS.txt for updated data!
