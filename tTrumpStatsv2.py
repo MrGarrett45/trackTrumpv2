@@ -2,8 +2,8 @@
 #idea: initally add all the hours up and just put the total in the trumpData
 #that way you can do daily stats with transferArr and totalStats with trumpData
 #total hours analyzed = number of days * 24
-import shelve, os, datetime, pprint, re
-import redditBot
+import shelve, os, datetime, time, re
+#import redditBot
 
 trumpData = shelve.open('trumpData')
 hourFile = shelve.open('hourFile')
@@ -67,9 +67,10 @@ resultFile.write('\nAt the highest point today %d out of 25 articles were about 
 resultFile.write('The breakdown was as follows:\n')
 for m in range(len(transferArr)):
 	resultFile.write(stringList[m])
-	resultFile.write('Since this experiment start %f of articles have been based on Trump, or %f out of 25.\n' % (totalAvgP, totalAvg))
+resultFile.write('Since this experiment start %f of articles have been based on Trump, or %f out of 25.\n' % (totalAvgP, totalAvg))
 
 hourFile.close()
 trumpData.close()
 
-redditBot.runBot()
+#time.sleep(1)
+#redditBot.runBot()
