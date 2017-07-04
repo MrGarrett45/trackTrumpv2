@@ -58,7 +58,7 @@ print(stringList)
 
 resultFile = open('RESULTS.txt', 'a')
 resultFile.write('\nData for %s/%s/%s:\n' % (month, day, str(now.year)))
-resultFile.write('Today %f of articles were based on Trump, or %f out of 25' % (todayAvgP, todayAvg))
+resultFile.write('Today on average %f of articles were based on Trump, or %f out of 25' % (todayAvgP, todayAvg))
 if largestFlag == True:
 	resultFile.write(". Thats a new high!")
 if smallestFlag == True:
