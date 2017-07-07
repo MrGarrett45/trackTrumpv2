@@ -45,7 +45,8 @@ if largestFlag == True:
 
 stringList = []
 for n in range(len(transferArr)):
-	stringList.append("At %d:00 there were %d articles\n" % (int(list(hourFile.keys())[n]), transferArr[n]))
+	#stringList.append("At %d:00 there were %d articles\n" % (int(list(hourFile.keys())[n]), transferArr[n]))
+	stringList.append('%d:00|%d/25|%f' % (int(list(hourFile.keys())[n]), transferArr[n], transferArr[n]/25))
 
 def atoi(text):
 	return int(text) if text.isdigit() else text
@@ -58,19 +59,24 @@ print(stringList)
 
 resultFile = open('RESULTS.txt', 'a')
 resultFile.write('\nData for %s/%s/%s:\n' % (month, day, str(now.year)))
-resultFile.write('Today on average %f of articles were based on Trump, or %f out of 25' % (todayAvgP, todayAvg))
+resultFile.write('Today on average %f of articles that made it to the frontpage of r/politics  were based on Trump, or %f out of 25.' % (todayAvgP, todayAvg))
 if largestFlag == True:
 	resultFile.write(". Thats a new high!")
 if smallestFlag == True:
 	resultFile.write(". That's a new low!")
 resultFile.write('\nAt the highest point today %d out of 25 articles were about Trump, and at the lowest point %d were about Trump.\n' % (highestToday, smallestToday))
 resultFile.write('The breakdown was as follows:\n')
+resultFile.write('\nTime|Number of Articles|Percentage\n')
+resultFile.write('-|-|-\n')
 for m in range(len(transferArr)):
-	resultFile.write(stringList[m])
+	#resultFile.write(stringList[m])
+	resultFile.write('%s\n' % stringList[m])
+	#resultFile.write('----------------------\n')
 resultFile.write('Since this experiment start %f of articles have been based on Trump, or %f out of 25.\n' % (totalAvgP, totalAvg))
 
 hourFile.close()
 trumpData.close()
+resultFile.close()
 
 #time.sleep(1)
 #redditBot.runBot()

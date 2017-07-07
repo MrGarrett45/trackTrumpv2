@@ -62,7 +62,13 @@ hour = str(now.hour)                               #the shelf file
 key = month+day
 
 hourFile = shelve.open('hourFile')
+
 hourFile[hour] = trumpCounter
+if int(hour) == 0:
+	for j in range(1, len(hourFile) - 1):
+		del hourFile[str(j)]	
+	del hourFile['23']
+
 hourFile.close()
 
 #tTrumpStatsv2.run()

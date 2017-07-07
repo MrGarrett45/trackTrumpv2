@@ -28,3 +28,70 @@ At 7:00 there were 17 articles
 At 8:00 there were 17 articles
 At 9:00 there were 17 articles
 Since this experiment start 0.708333 of articles have been based on Trump, or 17.708333 out of 25.
+
+Data for 7/5/2017:
+Today on average 0.693333 of articles were based on Trump, or 17.333333 out of 25
+At the highest point today 19 out of 25 articles were about Trump, and at the lowest point 14 were about Trump.
+The breakdown was as follows:
+
+Time|Number of Articles|Percentage
+-|-|-
+0:00|17/25|0.680000
+1:00|16/25|0.640000
+2:00|17/25|0.680000
+3:00|16/25|0.640000
+4:00|16/25|0.640000
+5:00|17/25|0.680000
+6:00|17/25|0.680000
+7:00|16/25|0.640000
+8:00|18/25|0.720000
+9:00|18/25|0.720000
+10:00|19/25|0.760000
+11:00|18/25|0.720000
+12:00|17/25|0.680000
+13:00|17/25|0.680000
+14:00|18/25|0.720000
+15:00|18/25|0.720000
+16:00|19/25|0.760000
+17:00|19/25|0.760000
+18:00|18/25|0.720000
+19:00|19/25|0.760000
+20:00|18/25|0.720000
+21:00|18/25|0.720000
+22:00|16/25|0.640000
+23:00|14/25|0.560000
+Since this experiment start 0.700833 of articles have been based on Trump, or 17.520833 out of 25.
+
+Data for 7/6/2017:
+Today on average 0.593333 of articles were based on Trump, or 14.833333 out of 25
+At the highest point today 21 out of 25 articles were about Trump, and at the lowest point 7 were about Trump.
+The breakdown was as follows:
+
+Time|Number of Articles|Percentage
+-|-|-
+0:00|15/25|0.600000
+1:00|14/25|0.560000
+2:00|14/25|0.560000
+3:00|14/25|0.560000
+4:00|14/25|0.560000
+5:00|13/25|0.520000
+6:00|13/25|0.520000
+7:00|14/25|0.560000
+8:00|16/25|0.640000
+9:00|16/25|0.640000
+10:00|18/25|0.720000
+11:00|21/25|0.840000
+12:00|20/25|0.800000
+13:00|19/25|0.760000
+14:00|19/25|0.760000
+15:00|16/25|0.640000
+16:00|17/25|0.680000
+17:00|16/25|0.640000
+18:00|15/25|0.600000
+19:00|13/25|0.520000
+20:00|12/25|0.480000
+21:00|11/25|0.440000
+22:00|9/25|0.360000
+23:00|7/25|0.280000
+Since this experiment start 0.665000 of articles have been based on Trump, or 16.625000 out of 25.
+Click [here](http://i.imgur.com/pAVf6EY.png) to see the daily graph
