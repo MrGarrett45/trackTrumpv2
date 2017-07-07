@@ -12,5 +12,6 @@ redditBot.py is responsible for posting this data on r/trumpPercent at the end o
 
 These programs are all run via cron jobs on a raspberry pi 3.
 
+Update 7/7: Now includes graphs! Uses matplotlib to create a daily graph as well as a total graph for the whole project. Contains an imgur bot in dailyGraph.py and totalGraph.py to give the image an imgur link and add it to the content of the reddit post. Check out the graphs directories for pictures.
 
 Check out r/trumpPercent or RESULTS.txt for updated data!
